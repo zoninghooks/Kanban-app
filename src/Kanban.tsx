@@ -28,7 +28,7 @@ function KanbanBoard() {
 
     setColumns((current) => ({
       ...current,
-      todo: [...current.toDo, newTask],
+      toDo: [...current.toDo, newTask],
     }));
 
     setNewTask("");
